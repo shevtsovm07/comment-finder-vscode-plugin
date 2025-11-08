@@ -1,0 +1,26 @@
+{
+    "name": "comment-finder",
+    "displayName": "Comment Finder",
+    "description": "Finds TODO and FIXME in code",
+    "version": "1.0.0",
+    "engines": {
+        "vscode": "^1.50.0"
+    },
+    "categories": ["Other"],
+    "activationEvents": ["onCommand:comment-finder.findComments"],
+    "main": "./out/extension.js",
+    "contributes": {
+        "commands": [{
+            "command": "comment-finder.findComments",
+            "title": "Find Comments"
+        }]
+    },
+    "scripts": {
+        "compile": "tsc -p ./",
+        "watch": "tsc -watch -p ./"
+    },
+    "devDependencies": {
+        "@types/vscode": "^1.50.0",
+        "typescript": "^4.0.0"
+    }
+}
