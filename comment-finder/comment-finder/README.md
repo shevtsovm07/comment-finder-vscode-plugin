@@ -21,6 +21,7 @@ Comment Finder - это расширение для Visual Studio Code, кото
    ```bash
    npm install
 4. Скомпилировать проект
+   ```bash
    npm run compile
 5. Нажать F5 для запуска окна отладки с плагином
 	
